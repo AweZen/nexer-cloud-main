@@ -1,0 +1,4 @@
+Kör: "docker build ." i den här mappen
+Kopiera imagenamnet (om inget anges så blir det en kod) från den sista raden i outputen som ser ut ungefär såhär: " => => writing image sha256:62ef2e9f9333f96e4121a80d61481973438c1a5310f462c9773117ff7f7e3a6b"
+I det fallet ska alltså "sha256:62ef2e9f9333f96e4121a80d61481973438c1a5310f462c9773117ff7f7e3a6b" kopieras
+Kör "docker run -p 8080:80 <namnet på image>"
